@@ -1,0 +1,31 @@
+/*
+Theme Name: Nirvana
+Theme URI: http://brettwilliamson.info/nirvana
+Description: Making a developer's life easier.
+Author: Brett Williamson
+Author URI: http://brettwilliamson.info/
+Version: 1.0
+Tags: widget areas, template maker
+
+License:
+License URI:
+
+General comments (optional).
+*/
+
+@CHARSET "UTF-8";
+
+
+/* Clearfix */
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}

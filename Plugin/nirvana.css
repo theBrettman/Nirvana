@@ -1,0 +1,69 @@
+@CHARSET "UTF-8";
+
+.wrap {
+	position: relative;
+}
+#switcher {
+	position: absolute;
+	top: 13px;
+	right: 20px;
+}
+#wpbody-content {
+	padding-bottom: 0;
+}
+.canvas {
+	margin-right: 20px;
+}
+.canvas div {/*adds dashed border and padding to make elements visible and clickable*/
+    border: 1px dashed #ddd;
+    padding: 10px;
+}
+.selectedElement {/*adds a yellow border to the selected element*/
+    border: 2px solid #ff0 !important;
+}
+.newElement {/*adds a background color to new elements to show they haven't been clickt yet*/
+    background: #9cc;
+}
+#footer {
+	border: none;
+	padding: 0;
+}
+#propPanel {
+    background-position: 0 -55px;
+    padding: 10px;
+}
+input:focus {
+    outline: none;
+}
+#newSidebar label {
+    display: block;
+    padding: 5px 0;
+}
+#newSidebar label span {
+    display: inline-block;
+    width: 92px;
+}
+.ui-widget {
+    font-family: inherit;
+    font-size: 1em;
+}
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+    font-family: inherit;
+}
+#heirs {
+    margin-bottom: 10px;
+}
+#heirs span {
+    padding: 0 5px;
+}
+li {
+	margin: 0;
+}
+.context-menu a {
+    padding: 3px 8px;
+    text-align: center;
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
